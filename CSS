@@ -1585,12 +1585,10 @@ local args = {
         [47] = 1,
         [48] = 1,
         [49] = {},
-        [50] = {}
-        },
+        [50] = {},
     },
     [2] = "saveExit"
 }
-end
 
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
 
