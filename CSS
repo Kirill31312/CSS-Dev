@@ -1594,7 +1594,6 @@ end
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
 
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
-end
 })
 local Tab = Window:MakeTab({
  Name = "Manage My Level",
