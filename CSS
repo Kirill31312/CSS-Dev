@@ -894,7 +894,7 @@ local args = {
             [2] = 10,
             [3] = 1,
             [4] = tonumber(PlayerID),
-            [5] = tonumber(PlayerID),
+            [5] == tonumber(PlayerID),
             [6] = tonumber(PlayerID)
         },
         [14] = 952,
