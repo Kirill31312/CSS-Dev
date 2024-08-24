@@ -720,8 +720,16 @@ Tab:AddButton({
             [1] = 10,
             [2] = 10,
             [3] = 1,
-            [4] = (PlayerID),
-            [5] = (ValuePlayerID)
+            [4] = (PlayerID), (ValuePlayerID)
+            [5] = (PlayerID), (ValuePlayerID)
+            [6] = (PlayerID), (ValuePlayerID)
+            [7] = (PlayerID), (ValuePlayerID)
+            [8] = (PlayerID), (ValuePlayerID)
+            [9] = (PlayerID), (ValuePlayerID)
+            [10] = (PlayerID), (ValuePlayerID)
+            [11] = (PlayerID), (ValuePlayerID)
+            [12] = (PlayerID), (ValuePlayerID)
+            [13] = (PlayerID), (ValuePlayerID)
         },
         [14] = 952,
         [15] = 1,
