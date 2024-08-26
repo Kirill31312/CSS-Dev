@@ -1593,6 +1593,8 @@ local args = {
 end
 
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(tonumber(IDPlayer), tonumber(ValueID))
+print(IDPlayer)
+print(ValueID)
 wait(2)
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
  end
