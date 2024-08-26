@@ -1591,9 +1591,7 @@ local args = {
     [2] = "saveExit"
 }
 end
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(tonumber(IDPlayer), tonumber(ValueID), unpack(args))
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args), tonumber(IDPlayer), tonumber(ValueID))
 
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
  end
