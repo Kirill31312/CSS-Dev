@@ -771,10 +771,6 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 2 then
 local args = {
     [1] = {
@@ -862,10 +858,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 3 then
 local args = {
     [1] = {
@@ -954,10 +946,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 4 then
 local args = {
     [1] = {
@@ -1047,10 +1035,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 5 then
 local args = {
     [1] = {
@@ -1141,10 +1125,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 6 then
 local args = {
     [1] = {
@@ -1236,10 +1216,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 7 then
 local args = {
     [1] = {
@@ -1332,10 +1308,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 8 then
 local args = {
     [1] = {
@@ -1429,10 +1401,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 9 then
 local args = {
     [1] = {
@@ -1527,10 +1495,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
-
-game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 elseif ValueID == 10 then
 local args = {
     [1] = {
@@ -1626,12 +1590,11 @@ local args = {
     },
     [2] = "saveExit"
 }
-
-game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+end
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(tonumber(ValueID), tonumber(IDPlayer))
 
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
  end
-end
 })
 local Tab = Window:MakeTab({
  Name = "Manage My Level",
