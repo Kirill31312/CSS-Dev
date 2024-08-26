@@ -4,7 +4,8 @@ local SlotID = 1
 local LevelCreateID = 1
 local antiError = 1
 local ValuePlayerID = nil
-local 
+local Callback = function(ValueIDPlayer)
+local ValueID = ValueIDPlayer
 local BeatLevelInst = 
  {
  ["Cmd"] = "Cleared",
@@ -678,9 +679,8 @@ Tab:AddTextbox({
  Name = "Select Values Of Players",
  Default = "1",
  TextDisappear = true,
- Callback = function(ValueIDPlayer)
- ValueID = ValueIDPlayer
- print(ValueIDPlayer)
+ Callback = function(Value)
+ print(Value)
  if ValueID == 1 then
  local args = {
     [1] = {
