@@ -682,7 +682,7 @@ Tab:AddDropdown({
  print(ValuePlayerID)
  end 
 })
-Tab:AddButton(
+Tab:AddButton([
  Name = "Save Configures!",
  Callback = function()
  if ValueID == 1 then
@@ -1631,7 +1631,7 @@ game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpac
 
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
-)
+])
 local Tab = Window:MakeTab({
  Name = "Manage My Level",
  Icon = "rbxassetid://4483345998",
