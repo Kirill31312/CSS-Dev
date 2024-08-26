@@ -788,12 +788,12 @@ elseif ValueID == 10 then
     },
     [2] = "saveExit"
 }
+end
 
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(tonumber(ValueID), tonumber(IDPlayer))
 
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
  end
-end
 })
 local Tab = Window:MakeTab({
  Name = "Manage My Level",
