@@ -771,7 +771,6 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 2 then
 local args = {
     [1] = {
@@ -948,7 +947,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 4 then
 local args = {
     [1] = {
@@ -1038,7 +1036,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 5 then
 local args = {
     [1] = {
@@ -1129,7 +1126,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 6 then
 local args = {
     [1] = {
@@ -1221,7 +1217,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 7 then
 local args = {
     [1] = {
@@ -1314,7 +1309,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 8 then
 local args = {
     [1] = {
@@ -1408,7 +1402,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 9 then
 local args = {
     [1] = {
@@ -1503,7 +1496,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-
 elseif ValueID == 10 then
 local args = {
     [1] = {
