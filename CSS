@@ -1590,8 +1590,6 @@ local args = {
     },
     [2] = "saveExit"
 }
-end
-
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(tonumber(IDPlayer), tonumber(ValueID))
 print(IDPlayer)
 print(ValueID)
