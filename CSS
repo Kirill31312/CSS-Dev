@@ -1595,7 +1595,7 @@ print(IDPlayer)
 print(ValueID)
 wait(2)
 game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
- end
+end
 })
 local Tab = Window:MakeTab({
  Name = "Manage My Level",
