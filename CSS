@@ -720,6 +720,7 @@ local args = {
             [1] = 10,
             [2] = 10,
             [3] = 1,
+elseif ValueID == 1 then
             [4] = tonumber(IDPlayer),
 elseif ValueID == 2 then
             [5] = tonumber(IDPlayer),
