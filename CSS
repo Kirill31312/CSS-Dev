@@ -663,6 +663,7 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
  end 
 })
+Tab:AddParagraph("Add more players to your custom levels!")
 Tab:AddParagraph("What is ID Player i should select?","1 - Sonic_S1, 2 - Sonic_S2, 3 - Sonic_S3, 4 - Tails_S3, 5 - Knuckles_S3, 6 - Amy, 7 - Metal_Sonic, 8 - Rouge_S1, 9 - Super_Sonic, 10 - Dr.Robotnik, 12 - Shadow_S3, 19 - Sonic_SCD")
 Tab:AddDropdown({
  Name = "Select Player ID!",
@@ -761,7 +762,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
 
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
