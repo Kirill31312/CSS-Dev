@@ -766,6 +766,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -813,6 +816,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -861,6 +867,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -910,6 +919,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -960,6 +972,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -1011,6 +1026,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -1063,6 +1081,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -1116,6 +1137,9 @@ Tab:AddButton({
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
@@ -1167,54 +1191,12 @@ Tab:AddButton({
             [12] = tonumber(IDPlayer),
             [13] = tonumber(IDPlayer)
         },
-        [14] = 952,
-        [15] = 1,
-        [16] = 0,
-        [17] = 5,
-        [18] = 0,
-        [19] = 160,
-        [20] = 224,
-        [21] = 0,
-        [22] = 2,
-        [23] = 0,
-        [24] = 0,
-        [25] = {
-            [1] = 425,
-            [2] = 528,
-            [3] = 244,
-            [4] = 437,
-            [5] = 1
-        },
-        [26] = 1,
-        [27] = 0,
-        [28] = 0,
-        [29] = 0,
-        [30] = 1,
-        [31] = 255,
-        [32] = 255,
-        [33] = 255,
-        [34] = 255,
-        [35] = 255,
-        [36] = 255,
-        [37] = 255,
-        [38] = 255,
-        [39] = 255,
-        [40] = 1,
-        [41] = 1,
-        [42] = 1,
-        [43] = {
-            [1] = 193
-        },
-        [44] = 0,
-        [45] = 1,
-        [46] = 1,
-        [47] = 1,
-        [48] = 1,
-        [49] = {},
-        [50] = {},
     },
     [2] = "saveExit"
 }
+game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
+
+game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 local Tab = Window:MakeTab({
@@ -2836,8 +2818,9 @@ local Tab = Window:MakeTab({
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
+Tab:AddParagraph("Many thanks to Tema_Suhar for the scripts!"," ")
 Tab:AddParagraph("Scripters","Kirill228 & Tema_Suhar")
-Tab:AddParagraph("Name this UI Script","Orion Hub")
+Tab:AddParagraph("Name this UI Script","Astereo Hub")
 local Tab = Window:MakeTab({
  Name = "All Hot-Scripts",
  Icon = "rbxassetid://4483345998",
