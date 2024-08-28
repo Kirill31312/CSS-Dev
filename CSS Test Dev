@@ -622,7 +622,7 @@ game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpac
  end 
 })
 Tab:AddParagraph("Add more players to your custom levels!","WARNING!!! The level is always erased when using the function, so be careful!!!")
-Tab:AddParagraph("What is ID Player i should select?","1 - Sonic_S1, 2 - Sonic_S2, 3 - Sonic_S3, 4 - Tails_S3, 5 - Knuckles_S3, 6 - Amy, 7 - Metal_Sonic, 8 - Rouge_S1, 9 - Super_Sonic, 10 - Shadow_S3, 11 - Dr.Robotnik, 12 - Sonic_SCD")
+Tab:AddParagraph("What is ID Player i should select?","1 - Sonic_S1, 2 - Sonic_S2, 3 - Sonic_S3, 4 - Tails_S3, 5 - Knuckles_S3, 6 - Amy, 7 - Metal_Sonic, 8 - Dr.Robotnik, 9 - Super_Sonic, 10 - Shadow_S3, 11 - Rouge_S1, 12 - Sonic_SCD")
 Tab:AddDropdown({
  Name = "Select Player ID!",
  Default = "1",
