@@ -5,6 +5,12 @@ local Tab = Window:MakeTab({
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
+OrionLib:MakeNotification({
+ Name = "Select Language!",
+ Content = "",
+ Image = "rbxassetid://4483345998",
+ Time = 5
+})
 Tab:AddButton({
  Name = "English",
  Callback = function()
