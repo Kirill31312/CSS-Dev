@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/Astereo-Library/main/Astereo%20UI%20Dev"))()
 local Window = OrionLib:MakeWindow({Name = "Select Language!", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
  Name = "Menu",
@@ -9,15 +9,13 @@ Tab:AddButton({
  Name = "English",
  Callback = function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS%20Test%20Dev'))()
- wait(0.5)
- game:GetService("CoreGui").Astereo:Destroy()
+ OrionLib:Destroy() 
  end 
 })
 Tab:AddButton({
  Name = "Русский (Alpha)",
  Callback = function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSSDR'))()
- wait(0.5)
- game:GetService("CoreGui").Astereo:Destroy()
+ OrionLib:Destroy()
  end 
 })
