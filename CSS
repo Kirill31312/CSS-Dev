@@ -8,6 +8,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
  Name = "English",
  Callback = function()
+ 
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS%20Test%20Dev", true))()
  OrionLib:Destroy()
  end 
@@ -15,6 +16,7 @@ Tab:AddButton({
 Tab:AddButton({
  Name = "Русский (Alpha)",
  Callback = function()
+ 
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSSDR", true))()
  OrionLib:Destroy()
  end 
