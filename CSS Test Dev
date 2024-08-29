@@ -53,6 +53,7 @@ Tab:AddButton({
  local Event = game:GetService("ReplicatedStorage").Remotes.GetMasterData
  Event:InvokeServer()
  game:GetService("Players").LocalPlayer.PlayerGui.MainMenu:Destroy()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.warp.Playing = true
  end 
 })
 Tab:AddButton({
@@ -79,6 +80,7 @@ Tab:AddButton({
  local Event = game:GetService("ReplicatedStorage").Remotes.GetMasterData
  Event:InvokeServer()
  game:GetService("Players").LocalPlayer.PlayerGui.MainMenu:Destroy()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.warp.Playing = true
  end 
 })
 Tab:AddButton({
@@ -105,6 +107,7 @@ Tab:AddButton({
  local Event = game:GetService("ReplicatedStorage").Remotes.GetMasterData
  Event:InvokeServer()
  game:GetService("Players").LocalPlayer.PlayerGui.MainMenu:Destroy()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.warp.Playing = true
  end 
 })
 Tab:AddButton({
