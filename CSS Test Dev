@@ -2600,7 +2600,7 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("OP Function")
 Tab:AddButton({
  Name = "Transform in VyrissDev!"
- Default = false,   
+ Default = "false",   
  Callback = function(debuggik)     
  if debuggik == true then       
  if game.Players.LocalPlayer.Name ~= "VyrissDev" then         
