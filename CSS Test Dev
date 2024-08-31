@@ -2598,9 +2598,9 @@ local Tab = Window:MakeTab({
  PremiumOnly = false
 })
 Tab:AddLabel("OP Function")
-Tab:AddButton({
+Tab:AddToggle({
  Name = "Transform in VyrissDev!"
- Default = "false",   
+ Default = false,   
  Callback = function(debuggik)     
  if debuggik == true then       
  if game.Players.LocalPlayer.Name ~= "VyrissDev" then         
