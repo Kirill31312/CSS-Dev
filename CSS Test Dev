@@ -640,9 +640,9 @@ Tab:AddDropdown({
  Name = "Select Level ID!",
  Default = "1",
  Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
- Callback = function(LevelOfID)
- LevelOfCreateID = LevelOfID
- print(LevelOfID)
+ Callback = function(LevelID)
+ LevelCreateID = LevelID
+ print(LevelID)
  end 
 })
 Tab:AddButton({
@@ -651,7 +651,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -699,7 +699,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -748,7 +748,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -798,7 +798,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -849,7 +849,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -901,7 +901,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -954,7 +954,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -1008,7 +1008,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
@@ -1063,7 +1063,7 @@ Tab:AddButton({
  local args = {
     [1] = {
         [1] = 1,
-        [2] = tonumber(LevelOfCreateID),
+        [2] = tonumber(LevelCreateID),
         [3] = 1,
         [4] = 39,
         [5] = 133,
