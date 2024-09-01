@@ -2597,7 +2597,7 @@ local Tab = Window:MakeTab({
  PremiumOnly = false
 })
 Tab:AddLabel("OP Function")
-Tab:AddButton({
+Tab:AddToggle({
  Name = "Turn On Debug Mode!",
  Default = false,
  Callback = function(debuggik)
