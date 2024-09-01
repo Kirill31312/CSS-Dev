@@ -2606,24 +2606,6 @@ local Tab = Window:MakeTab({
  PremiumOnly = false
 })
 Tab:AddLabel("OP Function")
-Tab:AddToggle({
- Name = "Turn On Debug Mode!",
- Default = false,
- Callback = function(debuggik)
- if debuggik == true then       
- if game.Players.LocalPlayer.Name ~= "VyrissDev" then         
- game:GetService("Players").LocalPlayer.Name = "VyrissDev"       
- end       
- game:GetService("ReplicatedStorage").Players:WaitForChild(game.Workspace:WaitForChild("CheckpointPosition").Value).Name = "VyrissDev"        
- wait(1)
- game:GetService("ReplicatedStorage").Players:WaitForChild(game.Workspace:WaitForChild("CheckpointPosition").Value).Name = "VyrissDev"       
- elseif antiError == 0 then       
- game.Players.LocalPlayer.Name = game.Workspace.CheckpointPosition.Value       
- wait(1)       
- game.Players.LocalPlayer.Name = game.Workspace.CheckpointPosition.Value     
- end   
- end
-})
 Tab:AddButton({
  Name = "Beat Zone Now in One Click!",
  Callback = function()
