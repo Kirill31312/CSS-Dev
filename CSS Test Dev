@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/Astereo-Library/main/Astereo%20UI%20Wave"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/Astereo-Library/main/Astereo%20UI%20Dev"))()
 local Window = OrionLib:MakeWindow({Name = "Classic Sonic Simulator V12 Script Revolution Dev", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
 local SlotID = 1
