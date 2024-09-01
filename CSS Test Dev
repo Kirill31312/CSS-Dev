@@ -2614,9 +2614,7 @@ Tab:AddToggle({
  if game.Players.LocalPlayer.Name ~= "VyrissDev" then         
  game:GetService("Players").LocalPlayer.Name = "VyrissDev"       
  end       
- game:GetService("ReplicatedStorage").Players:WaitForChild(game.Workspace:WaitForChild("CheckpointPosition").Value).Name = "VyrissDev"       
- wait(1)       
- game:GetService("ReplicatedStorage").Players:WaitForChild(game.Workspace:WaitForChild("CheckpointPosition").Value).Name = "LocalPlayer"     
+ game:GetService("ReplicatedStorage").Players:WaitForChild(game.Workspace:WaitForChild("CheckpointPosition").Value).Name = "VyrissDev"        
  elseif antiError == 0 then       
  game.Players.LocalPlayer.Name = game.Workspace.CheckpointPosition.Value       
  wait(1)       
