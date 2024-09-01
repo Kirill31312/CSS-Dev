@@ -2597,7 +2597,11 @@ local Tab = Window:MakeTab({
  PremiumOnly = false
 })
 Tab:AddLabel("OP Function")
-Tab:AddToggle({
+Tab:AddButton({
+ Name = "Turn On Debug Mode!",
+ Default = false,
+ Callback = function(debuggik)     
+ Tab:AddToggle({
  Name = "Transform in VyrissDev!"
  Default = false,   
  Callback = function(debuggik)     
