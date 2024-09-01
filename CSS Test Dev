@@ -2600,11 +2600,7 @@ Tab:AddLabel("OP Function")
 Tab:AddButton({
  Name = "Turn On Debug Mode!",
  Default = false,
- Callback = function(debuggik)     
- Tab:AddToggle({
- Name = "Transform in VyrissDev!"
- Default = false,   
- Callback = function(debuggik)     
+ Callback = function(debuggik)
  if debuggik == true then       
  if game.Players.LocalPlayer.Name ~= "VyrissDev" then         
  game:GetService("Players").LocalPlayer.Name = "VyrissDev"       
