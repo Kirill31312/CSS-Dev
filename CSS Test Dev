@@ -1236,6 +1236,7 @@ Tab:AddDropdown({
 Tab:AddButton({
  Name = "Create Level!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local CreateLevel = game:GetService("ReplicatedStorage").Remotes.CreateNewLevel
  CreateLevel:FireServer(tonumber(LevelCreateID), tonumber(SlotID))
  print(LevelCreateID)
