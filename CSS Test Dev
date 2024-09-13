@@ -1488,6 +1488,7 @@ Tab:AddLabel("Delete Objects")
 Tab:AddButton({
  Name = "Delete All Objects (Without Player)!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
          game:GetService("ReplicatedStorage").Objects.Amy.Sprite.SpriteDirY:Clone().Parent = game.ReplicatedStorage.Objects.Ring.Sprite
 		for i,v in pairs(game.ReplicatedStorage.Objects:GetChildren()) do
 			if v.Name ~= "Sonic_S1" and v.Name ~= "PathSwapper" and v.Name ~= "PathSwapper2" and v.Name ~= "Ring_Spark" and v.Name ~= "Ring_Goal" and v.Name ~= "Ring_Bouncing" and v.Name ~= "Ring" and v.Name ~= "Sonic_S1_Rose" and v.Name ~= "Sonic_S2" and v.Name ~= "Sonic_S2_Ashura" and v.Name ~= "Sonic_S3" and v.Name ~= "Sonic_S3_Red" and v.Name ~= "Tails_S3" and v.Name ~= "Knuckles_S3" and v.Name ~= "Knuckles_S3_Blue" and v.Name ~= "Metal_Sonic" and v.Name ~= "Rouge_S1" and v.Name ~= "Dr_Robotnik" and v.Name ~= "Shadow_S3" and v.Name ~= "Sonic_SCD" and v.Name ~= "Sonic_SCD_Rose" and v.Name ~= "Super_Sonic" then
@@ -1499,78 +1500,91 @@ Tab:AddButton({
 Tab:AddButton({
  Name = "Delete Test Pushable Block!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Block_Pushable"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Collapsing Bridge!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Collapsing_Bridge"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Bridge 8 Logs!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Bridge_08"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Bridge 12 Logs!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Bridge_12"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Platform Collapse!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Platform_Collapse"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Staircase!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Staircase"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Staircase 2!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Staircase_Rotating_1004"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Staircase 4!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Staircase_Rotating_1234"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Platform Bumper Up-Down 256px!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Platform_Bumper_R256"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Platform Bumper Up-Down 128px!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Platform_Bumper_D128"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Platform Bumper Right-Left 128px!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Platform_Bumper_R128"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Breakable Wall Middle!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Breakable_Wall_Middle"]:Destroy()
  end
 })
 Tab:AddButton({
  Name = "Delete Test Platform!",
  Callback = function()
+ game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("ReplicatedStorage").Objects["TZ__Platform"]:Destroy()
  end
 })
@@ -1583,28 +1597,28 @@ Tab:AddLabel("Secret Functions")
 Tab:AddButton({
  Name = "Water Transfare On",
  Callback = function()
-
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/HBSNX/main/Xjwxn"))()
  end
 })
 Tab:AddButton({
  Name = "Water Transfare Off",
  Callback = function()
-
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/Wixbe/main/Eienr"))()
  end
 })
 Tab:AddButton({
  Name = "Rise Speed On",
  Callback = function()
-
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/Wixbe/main/Sjwjze"))()
  end
 })
 Tab:AddButton({
  Name = "Rise Speed Off",
  Callback = function()
-
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/Wixbe/main/Iek2nd"))()
  end
 })
