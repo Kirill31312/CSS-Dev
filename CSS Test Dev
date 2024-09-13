@@ -552,7 +552,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
  Name = "Make Infinity Level!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 0,
@@ -735,7 +735,7 @@ Tab:AddDropdown({
 Tab:AddButton({
  Name = "Add one player!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -784,7 +784,7 @@ end
 Tab:AddButton({
  Name = "Add two players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -834,7 +834,7 @@ end
 Tab:AddButton({
  Name = "Add three players!",
  Callback = function()
-  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -885,7 +885,7 @@ end
 Tab:AddButton({
  Name = "Add four players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -937,7 +937,7 @@ end
 Tab:AddButton({
  Name = "Add five players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -990,7 +990,7 @@ end
 Tab:AddButton({
  Name = "Add six players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -1044,7 +1044,7 @@ end
 Tab:AddButton({
  Name = "Add seven players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -1099,7 +1099,7 @@ end
 Tab:AddButton({
  Name = "Add eight players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -1155,7 +1155,7 @@ end
 Tab:AddButton({
  Name = "Add nine players!",
  Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
+ game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
     [1] = {
         [1] = 1,
@@ -2949,24 +2949,28 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
  Name = "Open Dex Explorer V2",
  Callback = function()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/dex2.0", true))()
  end 
 })
 Tab:AddButton({
  Name = "Open Remote Spy",
  Callback = function()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
  end 
 })
 Tab:AddButton({
  Name = "Open Simple Spy",
  Callback = function()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
  end 
 })
 Tab:AddButton({
  Name = "Open Infinite Yield",
  Callback = function()
+ game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
  end 
 })
@@ -2978,6 +2982,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
  Name = "Change Laungage",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
@@ -2986,6 +2991,7 @@ Tab:AddParagraph("Choose Window Theme!", " ")
 Tab:AddButton({
  Name = "Wave Theme",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
@@ -2993,6 +2999,7 @@ Tab:AddButton({
 Tab:AddButton({
  Name = "Ryzen Theme",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
@@ -3000,6 +3007,7 @@ Tab:AddButton({
 Tab:AddButton({
  Name = "Dev Theme",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
@@ -3007,6 +3015,7 @@ Tab:AddButton({
 Tab:AddButton({
  Name = "Red Theme",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
@@ -3014,6 +3023,7 @@ Tab:AddButton({
 Tab:AddButton({
  Name = "Pink Theme",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
@@ -3027,18 +3037,21 @@ Tab:AddParagraph("Check out our channels to stay up to date with updates!")
 Tab:AddButton({
  Name = "Get Link on Discord Server!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  setclipboard(tostring("https://discord.gg/yUBtS45CNt"))
  end 
 })
 Tab:AddButton({
  Name = "Get Link on Discord Server 2!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  setclipboard(tostring("https://discord.gg/hy6xHG9eXD"))
  end 
 })
 Tab:AddButton({
  Name = "Get Link on YouTube Channel!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  setclipboard(tostring("https://www.youtube.com/@CSS_Exploits"))
  end 
 })
