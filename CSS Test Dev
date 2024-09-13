@@ -552,6 +552,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
  Name = "Make Infinity Level!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 0,
@@ -651,7 +652,7 @@ game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpac
 Tab:AddParagraph("Add more players to your custom levels!","WARNING!!! The level is always erased when using the function, so be careful!!!")
 Tab:AddParagraph("What is ID Player i should select?","1 - Sonic_S1, 2 - Sonic_S2, 3 - Sonic_S3, 4 - Tails_S3, 5 - Knuckles_S3, 6 - Amy, 7 - Metal_Sonic, 8 - Dr.Robotnik, 9 - Super_Sonic, 10 - Shadow_S3, 11 - Rouge_S1, 12 - Sonic_SCD")
 Tab:AddDropdown({
- Name = "Select Player ID!",
+ Name = "Select 1 Player ID!",
  Default = "1",
  Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
  Callback = function(PlayerID)
@@ -659,9 +660,82 @@ Tab:AddDropdown({
  print(PlayerID)
  end 
 })
+Tab:AddDropdown({
+ Name = "Select 2 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID2)
+ 2IDPlayer = PlayerID2
+ print(PlayerID2)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 3 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID3)
+ 3IDPlayer = PlayerID3
+ print(PlayerID3)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 4 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID4)
+ 4IDPlayer = PlayerID4
+ print(PlayerID4)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 5 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID5)
+ 5IDPlayer = PlayerID5
+ print(PlayerID5)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 6 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID6)
+ 6IDPlayer = PlayerID6
+ print(PlayerID6)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 7 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID7)
+ 7IDPlayer = PlayerID7
+ print(PlayerID7)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 8 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID8)
+ 8IDPlayer = PlayerID8
+ print(PlayerID8)
+ end 
+})
+Tab:AddDropdown({
+ Name = "Select 9 Player ID!",
+ Default = "1",
+ Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
+ Callback = function(PlayerID9)
+ 9IDPlayer = PlayerID9
+ print(PlayerID9)
+ end 
+})
 Tab:AddButton({
  Name = "Add one player!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -710,6 +784,7 @@ end
 Tab:AddButton({
  Name = "Add two players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -746,7 +821,7 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -759,6 +834,7 @@ end
 Tab:AddButton({
  Name = "Add three players!",
  Callback = function()
+  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -795,8 +871,8 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -809,6 +885,7 @@ end
 Tab:AddButton({
  Name = "Add four players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -845,9 +922,9 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer),         
-            [7] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer),         
+            [7] = tonumber(4IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -860,6 +937,7 @@ end
 Tab:AddButton({
  Name = "Add five players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -896,10 +974,10 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer),
-            [7] = tonumber(IDPlayer),
-            [8] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer),
+            [7] = tonumber(4IDPlayer),
+            [8] = tonumber(5IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -912,6 +990,7 @@ end
 Tab:AddButton({
  Name = "Add six players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -948,11 +1027,11 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer),
-            [7] = tonumber(IDPlayer),
-            [8] = tonumber(IDPlayer),
-            [9] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer),
+            [7] = tonumber(4IDPlayer),
+            [8] = tonumber(5IDPlayer),
+            [9] = tonumber(6IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -965,6 +1044,7 @@ end
 Tab:AddButton({
  Name = "Add seven players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -1001,12 +1081,12 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer),
-            [7] = tonumber(IDPlayer),
-            [8] = tonumber(IDPlayer),
-            [9] = tonumber(IDPlayer),
-            [10] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer),
+            [7] = tonumber(4IDPlayer),
+            [8] = tonumber(5IDPlayer),
+            [9] = tonumber(6IDPlayer),
+            [10] = tonumber(7IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -1019,6 +1099,7 @@ end
 Tab:AddButton({
  Name = "Add eight players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -1055,13 +1136,13 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer),
-            [7] = tonumber(IDPlayer),
-            [8] = tonumber(IDPlayer),
-            [9] = tonumber(IDPlayer),
-            [10] = tonumber(IDPlayer),
-            [11] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer),
+            [7] = tonumber(4IDPlayer),
+            [8] = tonumber(5IDPlayer),
+            [9] = tonumber(6IDPlayer),
+            [10] = tonumber(7IDPlayer),
+            [11] = tonumber(8IDPlayer)
         },
     },
     [2] = "saveExit"
@@ -1074,6 +1155,7 @@ end
 Tab:AddButton({
  Name = "Add nine players!",
  Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local args = {
     [1] = {
         [1] = 1,
@@ -1110,14 +1192,14 @@ Tab:AddButton({
             [2] = nil,
             [3] = nil,
             [4] = tonumber(IDPlayer),
-            [5] = tonumber(IDPlayer),
-            [6] = tonumber(IDPlayer),
-            [7] = tonumber(IDPlayer),
-            [8] = tonumber(IDPlayer),
-            [9] = tonumber(IDPlayer),
-            [10] = tonumber(IDPlayer),
-            [11] = tonumber(IDPlayer),
-            [12] = tonumber(IDPlayer)
+            [5] = tonumber(2IDPlayer),
+            [6] = tonumber(3IDPlayer),
+            [7] = tonumber(4IDPlayer),
+            [8] = tonumber(5IDPlayer),
+            [9] = tonumber(6IDPlayer),
+            [10] = tonumber(7IDPlayer),
+            [11] = tonumber(8IDPlayer),
+            [12] = tonumber(9IDPlayer)
         },
     },
     [2] = "saveExit"
