@@ -550,7 +550,7 @@ local Tab = Window:MakeTab({
  PremiumOnly = false
 })
 Tab:AddButton({
- Name = "Make Infinity Level!",
+ Name = "Создать Бесконченый Уровень!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -649,10 +649,10 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").Remotes.LevelEditorCommand:FireServer(unpack(args))
  end 
 })
-Tab:AddParagraph("Add more players to your custom levels!","WARNING!!! The level is always erased when using the function, so be careful!!!")
-Tab:AddParagraph("What is ID Player i should select?","1 - Sonic_S1, 2 - Sonic_S2, 3 - Sonic_S3, 4 - Tails_S3, 5 - Knuckles_S3, 6 - Amy, 7 - Metal_Sonic, 8 - Dr.Robotnik, 9 - Super_Sonic, 10 - Shadow_S3, 11 - Rouge_S1, 12 - Sonic_SCD")
+Tab:AddParagraph("Добавьте больше игроков на ваши пользовательские уровни!","ВНИМАНИЕ!!! Уровень всегда стирается при использовании этой функции, поэтому будьте осторожны!!!")
+Tab:AddParagraph("Какой ID Игрока мне следует выбрать?","1 - Sonic_S1, 2 - Sonic_S2, 3 - Sonic_S3, 4 - Tails_S3, 5 - Knuckles_S3, 6 - Amy, 7 - Metal_Sonic, 8 - Dr.Robotnik, 9 - Super_Sonic, 10 - Shadow_S3, 11 - Rouge_S1, 12 - Sonic_SCD")
 Tab:AddDropdown({
- Name = "Select Player ID!",
+ Name = "Выбрать ID Игрока!",
  Default = "1",
  Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"},
  Callback = function(PlayerID)
@@ -661,7 +661,7 @@ Tab:AddDropdown({
  end 
 })
 Tab:AddButton({
- Name = "Add one player!",
+ Name = "Добавить одного игрока!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -710,7 +710,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add two players!",
+ Name = "Добавить двух игроков!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -760,7 +760,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add three players!",
+ Name = "Добавить три игрока!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -811,7 +811,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add four players!",
+ Name = "Добавить четыре игрока!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -863,7 +863,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add five players!",
+ Name = "Добавить пять игроков!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -916,7 +916,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add six players!",
+ Name = "Добавить шесть игроков!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -970,7 +970,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add seven players!",
+ Name = "Добавить семь игроков!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -1025,7 +1025,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add eight players!",
+ Name = "Добавить восемь игроков!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -1081,7 +1081,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 Tab:AddButton({
- Name = "Add nine players!",
+ Name = "Добавить девять игроков!",
  Callback = function()
  game.ReplicatedStorage.LevelSelect.Backdrop.Screen["Level Select Script"].warp:Play()
  local args = {
@@ -1138,12 +1138,12 @@ game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator:Destroy()
 end
 })
 local Tab = Window:MakeTab({
- Name = "Manage My Level",
+ Name = "Создать уровень",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
 Tab:AddDropdown({
- Name = "Select slot your level",
+ Name = "Выберите слот уровня",
  Default = "1",
  Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"},
  Callback = function(SlotLevelID)
@@ -1153,7 +1153,7 @@ Tab:AddDropdown({
 })
 Tab:AddParagraph("What is ID Levels i should select?","1 - Old Test, 2 - Green Hill, 3 - Marble, 4 - Labyrinth, 5 - Emerald Hill, 6 - Metropolis, 7 - Spring Yard, 8 - Star Light, 9 - New Test")
 Tab:AddDropdown({
- Name = "Select ID Level",
+ Name = "Выберите ID уровня",
  Default = "1",
  Options = {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
  Callback = function(LevelID)
@@ -1162,7 +1162,7 @@ Tab:AddDropdown({
  end 
 })
 Tab:AddButton({
- Name = "Create Level!",
+ Name = "Создайте уровень!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  local CreateLevel = game:GetService("ReplicatedStorage").Remotes.CreateNewLevel
@@ -1174,7 +1174,7 @@ Tab:AddButton({
  end 
 })
 local Tab = Window:MakeTab({
- Name = "Local Functions",
+ Name = "Локальные функции",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
