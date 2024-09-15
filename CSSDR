@@ -2866,66 +2866,58 @@ local Tab = Window:MakeTab({
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
-Tab:AddParagraph("Many thanks to Tema_Suhar for the scripts!"," ")
-Tab:AddParagraph("Scripters","Kirill228 & Tema_Suhar")
-Tab:AddParagraph("Name this UI Script","Astereo Hub")
+Tab:AddParagraph("Огромное спасибо Tema_Suhar за скрипты!"," ")
+Tab:AddParagraph("Скриптеры","Kirill228 и Tema_Suhar")
+Tab:AddParagraph("Название UI этого скрипта","Astereo UI")
 local Tab = Window:MakeTab({
- Name = "All Hot-Scripts",
+ Name = "Hot-Scripts",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
 Tab:AddButton({
- Name = "Open Dex Explorer V2",
+ Name = "Открыть Dex Explorer V2",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/dex2.0", true))()
  end 
 })
 Tab:AddButton({
- Name = "Open Remote Spy",
+ Name = "Открыть Remote Spy",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
  end 
 })
 Tab:AddButton({
- Name = "Open Simple Spy",
+ Name = "Открыть Simple Spy",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
  end 
 })
 Tab:AddButton({
- Name = "Open Infinite Yield",
+ Name = "Открыть Infinite Yield",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.lshieldget.Playing = true
  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
  end 
 })
 local Tab = Window:MakeTab({
- Name = "Settings",
+ Name = "Настройки",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
 Tab:AddButton({
- Name = "Change Laungage",
+ Name = "Выбрать язык",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
  OrionLib:Destroy()
  end 
 })
-Tab:AddParagraph("Choose Window Theme!", " ")
+Tab:AddParagraph("Выберите тему окна!", " ")
 Tab:AddButton({
- Name = "Wave Theme",
- Callback = function()
- game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
- OrionLib:Destroy()
- end 
-})
-Tab:AddButton({
- Name = "Ryzen Theme",
+ Name = "Wave Тема",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
@@ -2933,7 +2925,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Dev Theme",
+ Name = "Ryzen Тема",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
@@ -2941,7 +2933,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Red Theme",
+ Name = "Dev Тема",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
@@ -2949,7 +2941,15 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Pink Theme",
+ Name = "Red Тема",
+ Callback = function()
+ game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
+ OrionLib:Destroy()
+ end 
+})
+Tab:AddButton({
+ Name = "Pink тема",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kirill31312/CSS-Dev/main/CSS", true))()
@@ -2957,27 +2957,27 @@ Tab:AddButton({
  end 
 })
 local Tab = Window:MakeTab({
- Name = "Channels",
+ Name = "Каналы",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
-Tab:AddParagraph("Check out our channels to stay up to date with updates!")
+Tab:AddParagraph("Следите за нашими каналами, чтобы быть в курсе обновлений!", " ")
 Tab:AddButton({
- Name = "Get Link on Discord Server!",
+ Name = "Получить ссылку на Discord Server!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  setclipboard(tostring("https://discord.gg/yUBtS45CNt"))
  end 
 })
 Tab:AddButton({
- Name = "Get Link on Discord Server 2!",
+ Name = "Получить ссылку на Discord Server 2!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  setclipboard(tostring("https://discord.gg/hy6xHG9eXD"))
  end 
 })
 Tab:AddButton({
- Name = "Get Link on YouTube Channel!",
+ Name = "Получить ссылку на YouTube Channel!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].checkpoint.Playing = true
  setclipboard(tostring("https://www.youtube.com/@CSS_Exploits"))
