@@ -322,9 +322,9 @@ local Tab = Window:MakeTab({
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
-Tab:AddLabel("Game functions")
+Tab:AddLabel("Функции")
 Tab:AddToggle({
- Name = "Light Dash Effect!",
+ Name = "Light Dash Эффект!",
  Default = false,
  Callback = function(ToggleGui)
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
@@ -343,7 +343,7 @@ Tab:AddToggle({
  end
  end 
  })
-Tab:AddLabel("Game GUIS")
+Tab:AddLabel("Игровые GUIS")
 Tab:AddToggle({
  Name = "S3 Special Stage GUI!",
  Default = false,
@@ -363,7 +363,7 @@ Tab:AddToggle({
  end 
 })
 Tab:AddToggle({
- Name = "Hitbox of your chara!",
+ Name = "Показать Хитбоксы Игрока!",
  Default = false,
  Callback = function(HitboxChara)
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
@@ -375,7 +375,7 @@ Tab:AddToggle({
  end
 })
 Tab:AddDropdown({
- Name = "Zoom (2-0.5)",
+ Name = "Увеличение (2-0.5)",
  Default = "1x",
  Options = {"2", "1", "0.75", "0.5"},
  Callback = function(ZoomValueing)
@@ -396,7 +396,7 @@ Tab:AddDropdown({
  end 
 })
 Tab:AddDropdown({
- Name = "Zoom (0.25-0.001)",
+ Name = "Увеличение (0.25-0.001)",
  Default = "1x",
  Options = {"0.25", "0.10", "0.05", "0.001"},
  Callback = function(ZoomValueing)
@@ -417,7 +417,7 @@ Tab:AddDropdown({
  end 
 })
 Tab:AddToggle({
- Name = "Helping for function Zoom!",
+ Name = "Показать объекты которые в дали!",
  Default = false,
  Callback = function(HelpingZoom)
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
@@ -443,7 +443,7 @@ Tab:AddToggle({
  end 
 })
 Tab:AddToggle({
- Name = "Turn off background!",
+ Name = "Выключить фон!",
  Default = false,
  Callback = function(ToggleGui4)
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
@@ -455,7 +455,7 @@ Tab:AddToggle({
  end 
 })
 Tab:AddToggle({
- Name = "Turn off all objects!",
+ Name = "Выключить все объекты!",
  Default = false,
  Callback = function(ToggleGui5)
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
@@ -467,7 +467,7 @@ Tab:AddToggle({
  end 
 })
 Tab:AddToggle({
- Name = "Enable/Disable Lava",
+ Name = "Выключить лаву!",
  Default = false,
  Callback = function(IL)
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
@@ -479,7 +479,7 @@ Tab:AddToggle({
  end 
 })
 Tab:AddButton({
- Name = "Reset Level!",
+ Name = "Сбросить уровень!",
  Callback = function()
  game.ReplicatedStorage.Game.Backdrop.Main.Engine["break1"]:Play()
  game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Game").Backdrop.Main.Engine.Disabled = true
@@ -487,15 +487,15 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Freeze Asteron!",
+ Name = "Заморозить бадника Asteron!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  game:GetService("ReplicatedStorage").Objects.Asteron.Tick.Value = math.huge
  end 
 })
-Tab:AddParagraph("Texture Packs!")
+Tab:AddParagraph("Текстур Паки!")
 Tab:AddButton({
- Name = "Enable Basic Texture Pack!",
+ Name = "Включить Классический Текстур Пак!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  game:GetService("ReplicatedStorage").Spritesheets.Objects_General_S3.Value = 8352336106
@@ -505,7 +505,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Enable Sonic 1 Texture Pack!",
+ Name = "Включить Sonic 1 Текстур Пак!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  game:GetService("ReplicatedStorage").Spritesheets.Objects_General_S3.Value = 13804826000
@@ -515,7 +515,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Enable Sonic 2 Texture Pack!",
+ Name = "Включить Sonic 2 Тектсур Пак!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  game:GetService("ReplicatedStorage").Spritesheets.Objects_General_S3.Value = 13804828820
@@ -525,7 +525,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Enable Sonic 3 Texture Pack!",
+ Name = "Включить Sonic 3 Текстур Пак!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  game:GetService("ReplicatedStorage").Spritesheets.Objects_General_S3.Value = 13804830596
@@ -535,7 +535,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Enable Sonic CD Texture Pack!",
+ Name = "Включить Sonic CD Текстур Пак!",
  Callback = function()
  game:GetService("ReplicatedStorage").LevelSelect.Backdrop.Screen["Level Select Script"].medal.Playing = true
  game:GetService("ReplicatedStorage").Spritesheets.Objects_General_S3.Value = 13804832490
@@ -545,7 +545,7 @@ Tab:AddButton({
  end 
 })
 local Tab = Window:MakeTab({
- Name = "Crazy Functions",
+ Name = "Мега Функции",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
