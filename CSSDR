@@ -1724,9 +1724,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 514
  end 
 })
-Tab:AddParagraph("Objects From Old Test!")
+Tab:AddParagraph("Объекты из Old Test!")
 Tab:AddButton({
- Name = "Insert Conveyor Belt",
+ Name = "Поставить Conveyor Belt",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1736,7 +1736,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert CD Bumper!",
+ Name = "Поставить CD Bumper!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1746,7 +1746,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Block!",
+ Name = "Поставить Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1756,7 +1756,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Breakable Wall!",
+ Name = "Поставить Breakable Wall!",
  Callback = function()
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId:Destroy()
@@ -1765,7 +1765,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Rotating Staircase!",
+ Name = "Поставить Rotating Staircase!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1775,7 +1775,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Swinging Platform!",
+ Name = "Поставить Swinging Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1785,7 +1785,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1795,7 +1795,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bridge!",
+ Name = "Поставить Bridge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1804,9 +1804,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 120
  end 
 })
-Tab:AddParagraph("Objects From Test!")
+Tab:AddParagraph("Объекты из Test!")
 Tab:AddButton({
- Name = "Insert Block!",
+ Name = "Поставить Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1816,7 +1816,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Breakable Wall!",
+ Name = "Поставить Breakable Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1826,7 +1826,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Collapsing Bridge!",
+ Name = "Поставить Collapsing Bridge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1836,7 +1836,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bumper Platform!",
+ Name = "Поставить Bumper Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1846,7 +1846,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Breakable Block!",
+ Name = "Поставить Breakable Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1856,7 +1856,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Flipper!",
+ Name = "Поставить Flipper!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1866,7 +1866,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Glass Bumper!",
+ Name = "Поставить Glass Bumper!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1876,7 +1876,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Fire Wall!",
+ Name = "Поставить Fire Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1886,7 +1886,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1896,7 +1896,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Swinging Platform!",
+ Name = "Поставить Swinging Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1906,7 +1906,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Rotating Staircase!",
+ Name = "Поставить Rotating Staircase!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1916,7 +1916,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bridge!",
+ Name = "Поставить Bridge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1926,7 +1926,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Interactable Block!",
+ Name = "Поставить Interactable Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1936,7 +1936,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert S2 Bumper!",
+ Name = "Поставить S2 Bumper!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1946,7 +1946,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bumper Token!",
+ Name = "Поставить Bumper Token!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1956,7 +1956,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Ballon!",
+ Name = "Поставить Ballon!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1965,9 +1965,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 34
  end 
 })
-Tab:AddParagraph("Objects From Green Hill!")
+Tab:AddParagraph("Объекты из Green Hill!")
 Tab:AddButton({
- Name = "Insert Collapsing Ledge!",
+ Name = "Поставить Collapsing Ledge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1977,7 +1977,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Palmatree Panic Ghost Platform!",
+ Name = "Поставить Palmatree Panic Ghost Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1987,7 +1987,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bridge!",
+ Name = "Поставить Bridge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -1997,7 +1997,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bridge Support!",
+ Name = "Поставить Bridge Support!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2007,7 +2007,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Vertical Moving Tall Platform!",
+ Name = "Поставить Vertical Moving Tall Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2017,7 +2017,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Breakable Wall!",
+ Name = "Поставить Breakable Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2027,7 +2027,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2037,7 +2037,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Swinging Platform!",
+ Name = "Поставить Swinging Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2047,7 +2047,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Non-Solid Wall!",
+ Name = "Поставить Non-Solid Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2057,7 +2057,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Solid Wall!",
+ Name = "Поставить Solid Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2067,7 +2067,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Rock!",
+ Name = "Поставить Rock!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2076,9 +2076,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 182
  end 
 })
-Tab:AddParagraph("Objects From Marble!")
+Tab:AddParagraph("Объекты из Marble!")
 Tab:AddButton({
- Name = "Insert Block!",
+ Name = "Поставить Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2088,7 +2088,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Falling Block Type A!",
+ Name = "Поставить Falling Block Type A!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2098,7 +2098,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Falling Block Type B!",
+ Name = "Поставить Falling Block Type B!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2108,7 +2108,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bobbing Block!",
+ Name = "Поставить Bobbing Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2118,7 +2118,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2128,7 +2128,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Swinging Platform!",
+ Name = "Поставить Swinging Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2138,7 +2138,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Moving Pillar!",
+ Name = "Поставить Moving Pillar!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2148,7 +2148,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Breakable Block!",
+ Name = "Поставить Breakable Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2158,7 +2158,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Fire Wall!",
+ Name = "Поставить Fire Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2168,7 +2168,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Fireball Spawner!",
+ Name = "Поставить Fireball Spawner!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2178,7 +2178,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Interactable Block!",
+ Name = "Поставить Interactable Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2187,9 +2187,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 529
  end 
 })
-Tab:AddParagraph("Objects From Spring Yard!")
+Tab:AddParagraph("Объекты из Spring Yard!")
 Tab:AddButton({
- Name = "Insert S1 Bumper!",
+ Name = "Поставить S1 Bumper!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2199,7 +2199,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Block!",
+ Name = "Поставить Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2209,7 +2209,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2219,7 +2219,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Moving Square Platform!",
+ Name = "Поставить Moving Square Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2228,9 +2228,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 246
  end 
 })
-Tab:AddParagraph("Objects From Labyrinth!")
+Tab:AddParagraph("Объекты из Labyrinth!")
 Tab:AddButton({
- Name = "Insert Block!",
+ Name = "Поставить Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2240,7 +2240,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Sponge Block!",
+ Name = "Поставить Sponge Block!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2250,7 +2250,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2260,7 +2260,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Spear!",
+ Name = "Поставить Spear!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2269,9 +2269,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 527
  end 
 })
-Tab:AddParagraph("Objects From Star Light!")
+Tab:AddParagraph("Объекты из Star Light!")
 Tab:AddButton({
- Name = "Insert Collapsing Bridge!",
+ Name = "Поставить Collapsing Bridge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2281,7 +2281,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Rotating Platforms!",
+ Name = "Поставить Rotating Platforms!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2291,7 +2291,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Descending Staircase!",
+ Name = "Поставить Descending Staircase!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2301,7 +2301,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Fire Wall!",
+ Name = "Поставить Fire Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2311,7 +2311,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Swinging Spiked Platform!",
+ Name = "Поставить Swinging Spiked Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2321,7 +2321,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Breakable Wall!",
+ Name = "Поставить Breakable Wall!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2330,9 +2330,9 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring.ObjId.Value = 321
  end 
 })
-Tab:AddParagraph("Objects From Emerald Hill!")
+Tab:AddParagraph("Объекты из Emerald Hill!")
 Tab:AddButton({
- Name = "Insert Platform!",
+ Name = "Поставить Platform!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2342,7 +2342,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bridge Support!",
+ Name = "Поставить Bridge Support!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2352,7 +2352,7 @@ Tab:AddButton({
  end 
 })
 Tab:AddButton({
- Name = "Insert Bridge!",
+ Name = "Поставить Bridge!",
  Callback = function()
  game:GetService("ReplicatedStorage").Game.Backdrop.Main.Engine.select.Playing = true
  Instance.new("NumberValue",game:GetService("Players").LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.ObjectsList.Ring.Ring)
@@ -2362,7 +2362,7 @@ Tab:AddButton({
  end 
 })
 local Tab = Window:MakeTab({
- Name = "Cutten Music",
+ Name = "Вырезанная Музыка",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
