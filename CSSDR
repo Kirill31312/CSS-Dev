@@ -2366,7 +2366,7 @@ local Tab = Window:MakeTab({
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
-Tab:AddParagraph("How to listen cutten music","First, go in Level Creator and click on the red music on topbar, click on buttons in script and songs id put automatically!")
+Tab:AddParagraph("Как слушать обрезанную музыку", "Сначала зайдите в Level Creator и нажмите на красную музыку на верхней панели, нажмите на кнопки в скрипте, и песни вставятся автоматически!")
 Tab:AddLabel("House Zone")
 Tab:AddButton({
  Name = "House Music 1",
@@ -2581,7 +2581,7 @@ Tab:AddButton({
  game.Players.LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.Windows.Music.Frame.Custom.Text = "7471720264"
  end 
 })
-Tab:AddLabel("CSS Music")
+Tab:AddLabel("Музыка из CSS")
 Tab:AddButton({
  Name = "Title Screen!",
  Callback = function()
@@ -2717,15 +2717,15 @@ Tab:AddButton({
  game.Players.LocalPlayer.PlayerGui.LevelCreator.Backdrop.Screen.Windows.Music.Frame.Custom.Text = "502997918"
  end 
 })
-Tab:AddParagraph("Warning! If want more songs here...","If you want more songs here, go to the section (Channels)")
+Tab:AddParagraph("Внимание!","Если хотите больше песен здесь, перейдите в раздел (Каналы)")
 local Tab = Window:MakeTab({
- Name = "OP Functions",
+ Name = "OP Функции",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
-Tab:AddLabel("OP Function")
+Tab:AddLabel("OP Функции")
 Tab:AddButton({
- Name = "Beat Zone Now in One Click!",
+ Name = "Пройди зону нажатием!",
  Callback = function()
  local FastBeat = game:GetService("ReplicatedStorage").Remotes.EndGame
  FastBeat:InvokeServer(BeatLevelInst)
@@ -2733,7 +2733,7 @@ Tab:AddButton({
  end
 })
 Tab:AddButton({
- Name = "Beat Special Stage Now in One Click!",
+ Name = "Пройди этап нажатием!",
  Callback = function()
  local A_1 = true
  local A_2 = 64
@@ -2747,122 +2747,122 @@ Tab:AddButton({
  game:GetService("Players").LocalPlayer.PlayerGui.S3SpecialStage:Destroy()
  end
 })
-Tab:AddLabel("To be a character")
-Tab:AddParagraph("How to be a admin Character","To do this, just click on any button and go to ANY level. And you will become the character you clicked on now")
+Tab:AddLabel("Превратиться в персонажа")
+Tab:AddParagraph("Как стать персонажем-администратором", "Чтобы это сделать, просто нажмите на любую кнопку и перейдите на ЛЮБОЙ уровень. И вы станете тем персонажем, на которого вы сейчас нажали")
 Tab:AddButton({
- Name = "To be Baldi",
+ Name = "Быть Baldi",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Baldi"
  end 
 })
 Tab:AddButton({
- Name = "To be Sonic EXE",
+ Name = "Быть Sonic EXE",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Sonic_EXE"
  end 
 })
 Tab:AddButton({
- Name = "To be Orange Mushroom",
+ Name = "Быть Orange Mushroom",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Mushroom_Orange"
  end 
 })
 Tab:AddButton({
- Name = "To be Sonic Tiny",
+ Name = "Быть Sonic Tiny",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Sonic_Tiny"
  end 
 })
 Tab:AddButton({
- Name = "To be Sonic_S1",
+ Name = "Быть Sonic_S1",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Sonic_S1"
  end 
 })
 Tab:AddButton({
- Name = "To be Sonic_SCD",
+ Name = "Быть Sonic_SCD",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Sonic_SCD"
  end 
 })
 Tab:AddButton({
- Name = "To be Sonic_S2",
+ Name = "Быть Sonic_S2",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Sonic_S2"
  end 
 })
 Tab:AddButton({
- Name = "To be Sonic_S3",
+ Name = "Быть Sonic_S3",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Sonic_S3"
  end 
 })
 Tab:AddButton({
- Name = "To be Tails_S3",
+ Name = "Быть Tails_S3",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Tails_S3"
  end 
 })
 Tab:AddButton({
- Name = "To be Knuckles_S3",
+ Name = "Быть Knuckles_S3",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Knuckles_S3"
  end 
 })
 Tab:AddButton({
- Name = "To be Amy",
+ Name = "Быть Amy",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Amy"
  end 
 })
 Tab:AddButton({
- Name = "To be Metal_Sonic",
+ Name = "Быть Metal_Sonic",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Metal_Sonic"
  end 
 })
 Tab:AddButton({
- Name = "To be Rouge_S1",
+ Name = "Быть Rouge_S1",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Rouge_S1"
  end 
 })
 Tab:AddButton({
- Name = "To be Super_Sonic",
+ Name = "Быть Super_Sonic",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Super_Sonic"
  end 
 })
 Tab:AddButton({
- Name = "To be Dr_Robotnik",
+ Name = "Быть Dr_Robotnik",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Dr_Robotnik"
  end 
 })
 Tab:AddButton({
- Name = "To be Shadow_S3",
+ Name = "Быть Shadow_S3",
  Callback = function()
  game.ReplicatedStorage.Players:WaitForChild(game.Players.LocalPlayer.Name):WaitForChild("Character")
  game.ReplicatedStorage.Players[game.Players.LocalPlayer.Name].Character.Value = "Shadow_S3"
  end 
 })
 local Tab = Window:MakeTab({
- Name = "Creators",
+ Name = "Создатели",
  Icon = "rbxassetid://4483345998",
  PremiumOnly = false
 })
